@@ -1,3 +1,7 @@
+function toggleCreateContactForm(){
+    var contactForm = document.getElementById('contactForm');
+    contactForm.style.display = contactForm.style.display ==='none' ? 'block' : 'none' ;
+}
 // Function to create a new contact
 function createContact() {
     var name = document.getElementById('name').value;
